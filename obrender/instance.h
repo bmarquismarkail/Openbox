@@ -30,6 +30,7 @@ struct _RrInstance {
     Visual *visual;
     gint depth;
     Colormap colormap;
+    PangoFontMap *fontmap;
     PangoContext *pango;
 
     gint red_offset;
